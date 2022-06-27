@@ -28,6 +28,8 @@ header .menu{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-right: 20px;
+    margin-top:20px;
 }
 header .menu-line{
     height: 3px;
@@ -50,7 +52,7 @@ header .menu-line{
 
 .container .rightside{
     flex:1;
-    background-image: url('../images/hero.jpg');
+    background-image: url('../images/fabio.jpeg');
     background-position: 100% auto;
     background-size: cover;
 }
