@@ -126,12 +126,12 @@ header .menu--oper{
 
 header .menu ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #3b576d;
     
 }
 
 header .menu ul li a:hover{
-    border-bottom: 1px solid #3b576d;
+    border-bottom: 1px solid #fff;
 }
 
 nav ul,
@@ -198,6 +198,14 @@ nav li{
         color: #333;
         font-size: 16px;
     }
+
+    header .menu ul li a{
+        color: #000;
+        font-weight: bold;
+        line-height: 20px;
+        
+    }
+
 }
 
 @media (max-width:450px){
@@ -236,6 +244,12 @@ nav li{
         flex-direction: column;
     }
 
+    header .menu ul li a{
+        color: #000;
+        font-weight: bold;
+        line-height: 20px;
+        
+    }
 
 }
 
@@ -244,6 +258,15 @@ nav li{
             display: flex;
             margin-right: -400px;
         }
+
+        header .menu ul li a{
+            color: #000;
+            font-weight: bold;
+            line-height: 20px;
+            
+            
+        }
+    
     
     }
 
@@ -251,6 +274,13 @@ nav li{
         header .menu--oper{
             display: flex;
             margin-right: -300px;
+        }
+
+        header .menu ul li a{
+            color: #000;
+            font-weight: bold;
+            line-height: 20px;
+            
         }
     
     }
