@@ -214,9 +214,9 @@ nav li{
     }
 
     header .menu ul li a:hover{
-        border-bottom: 1px solid #3b576d;
+        opacity: 0.8;
+    
     }
-
 }
 
 @media (max-width:450px){
@@ -249,7 +249,8 @@ nav li{
     }
 
     header .menu ul li a:hover{
-        border-bottom: 1px solid #3b576d;
+        opacity: 0.8;
+    
     }
 
     .menu ul{
@@ -297,6 +298,11 @@ nav li{
         padding: 10px;
         width: 100%;
        }
+
+       header .menu ul li a:hover{
+        opacity: 0.8;
+    
+    }
     }
 
     @media (min-width:451px) AND (max-width:500px){
@@ -313,7 +319,8 @@ nav li{
         }
 
         header .menu ul li a:hover{
-            border-bottom: 1px solid #3b576d;
+            opacity: 0.8;
+        
         }
 
         .menu a{
