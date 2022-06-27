@@ -6,22 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Fábio Vasques</title>
+
+
+    <script type="text/javascript">
+
+
+        window.onload = function() {
+            document.querySelector(".menu--oper").addEventListener("click", function() {
+                if (document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                document.querySelector(".menu nav ul").style.display = 'flex';
+                console.log('ok');
+                }
+            });
+        };
+
+        /*para o menu amburguer aparecer só com resolução menor que 600 */
+
+        window.addEventListener('resize', function () {
+            var largura = window.innerWidth;
+
+            if (largura > 600)
+            document.querySelector(".menu nav ul").removeAttribute('style');
+            });
+    </script> 
+
+
 </head>
 <body>
     <header>
         <div class="logo">Vasques.</div>
-        <div class="menu">
-            <div class="menu-line"></div>
-            <div class="menu-line"></div>
-            <div class="menu-line"></div>
-
+        <div class="menu--oper">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
         </div>
+        <div class="menu">        
+            <nav>
+                <ul>
+                    <li><a href="">projetos</a></li>
+                    <li><a href="">serviços</a></li>
+                    <li><a href="">habilidades</a></li>
+
+                </ul>
+            </nav>
+        </div>     
     </header>
     <section class="container">
         <div class="leftside">
             <div class="info">
                 <div class="profession">
-                    Desenvolvedor WEB
+                 Analista de sistemas / Desenvolvedor WEB
                 </div>
                 <div class="name">
                      Fábio Vasques
